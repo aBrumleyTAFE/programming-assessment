@@ -1,5 +1,52 @@
 import random
+#import something we can use for scoreboard
 
+# queries player name
+def q_name():
+    # intro message
+    # ask for name
+        # input validation - strip spaces, do not allow empty input
+    # greet player
+    # return name
+
+# queries for how many rounds
+def q_rounds():
+    # asks for rounds
+        # input validation - repeat until selection is an odd number less then 10
+    # returns choice
+        ### CHANGE TO LOOP GOING THROUGH THIS
+
+# game loop
+def g_loop(game_rounds):
+    # game loop should be moved here
+    # for rounds in game_rounds
+        # g_round
+        # g_check
+        # check if winner
+            # break if winner and return computer or player name
+
+# game round
+def g_round():
+    # player choice
+        # input validation - set to lower, strip spaces, suggest r/p/s and check for r/p/s/rock/paper/scissor
+    # comp choice from random
+    # return choices - probably easiest to do as two variables ie `return playerChoice, cpuChoice`
+        # we could also use a named tuple or list if we need it
+
+# comparing choices to define winner
+def g_check(pChoice, cChoice):
+    # move the big if statement here
+
+# taking things and putting them in the scoreboard
+def s_write():
+    # load scoreboard file
+    # write winner, total rounds, and rounds won
+
+# scoreboard
+def s_board():
+    # if program is run with `-s` or `--scoreboard`
+    # load from scoreboard file
+    # print it
 
 def game():  # defined function entitled game
 

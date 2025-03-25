@@ -28,8 +28,8 @@ def game():
             while True:
                 userInput = (
                     input("Type your choice here (rock or paper or scissors): ")
-                    .lower()
-                    .rstrip()
+                    .lower()  # changes to lower
+                    .rstrip()  # strips spaces from response
                 )
                 if userInput in optionList:
                     break
